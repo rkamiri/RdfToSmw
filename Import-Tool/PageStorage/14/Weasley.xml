@@ -1,20 +1,21 @@
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
                     
                     <page>
-                        <title>ze</title>
+                        <title>Weasley</title>
                         <ns>0</ns>
                         <id>ID de la page</id>
                         <revision>
                           <id>ID de la révision ?.</id>
-                          <timestamp>2020-06-08T14:22:57Z</timestamp>
+                          <timestamp>2020-06-18T14:41:43Z</timestamp>
                           <contributor>
-                            <username>zef</username>
+                            <username>importing-Tool</username>
                             <id>1</id>
                           </contributor>
-                          <comment>zefezf</comment>
+                          <comment></comment>
                           <model>wikitext</model>
                           <format>text/x-wiki</format>
-                          <text xml:space="preserve" bytes="12">zefez</text>
+                          <text xml:space="preserve" bytes="12"></text>
+                          <text xml:space="preserve" bytes="12"></text>
                           <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
                         </revision>
                       </page>

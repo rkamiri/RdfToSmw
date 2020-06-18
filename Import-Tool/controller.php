@@ -3,28 +3,35 @@
 	require 'model.php';
 	class controller{
 		private $view;
-		private $mod;
+		private $model;
 
 		public function __construct(){
 			$this->view=new View();
-			$this->mod=new Model();
+			$this->model=new Model();
 		}
 
 		public function getAff(){
 			return $this->view->getBody();
 		}
-		
-		public function createPages(){
-			$pathToFolder=$this->mod->createFolder();
-			$pathToFile=$this->createPage($pathToFolder);
-			$this->dlPage($pathToFile);
-		}
-		public function createPage($path){
-			return $this->mod->createPage($path);
+
+		public function upload(){
+			return $this->model->upload();
 		}
 
-		public function dlPage($path){
-			return $this->mod->dlPage($path);
+		public function createFolder(){
+			return $this->model->createFolder();
+		}
+
+		public function createPages($pathToFolder, $pathToXML){
+			$this->model->createPages($pathToFolder, $pathToXML);
+		}
+
+		public function zipFile($pathToFolder){
+			$this->model->zipFile($pathToFolder);
+		}
+
+		public function dlZip($pathToFolder){
+			return $this->model->dlPage("PageStorage/".$pathToFolder.".zip");
 		}
 		/*public function sendMail(){
 		    $this->mod->sendMail();

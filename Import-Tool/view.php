@@ -11,12 +11,9 @@
                 <header>
                 </header>
                 <body>
-                    <form action="index.php?module=index&action=createPage" method="POST">  
-                        <input name="Title" placeholder="title" required>
-                        <input name="UserName" placeholder="userName" required>
-                        <input name="Preview" placeholder="Preview" required>
-                        <textarea name="Body" placeholder="Body" required></textarea> 
-                        <button type="submit">Envoyer</button>
+                    <form enctype="multipart/form-data" action="index.php?module=index&action=upload" method="POST">
+                        <input type="file" name="uploaded_file"></input><br />
+                        <input type="submit" value="Upload"></input>
                     </form>
                 </body>
                 <footer id="contact">
