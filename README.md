@@ -22,3 +22,5 @@ To load a page inside **SemanticMediaWiki**, go to your homepage, then click on 
 # Credits
 
 Paris-8 University Research Lab - Romain Kamiri.
+
+![universitée paris8](https://www.lesdechargeurs.fr/sites/default/files/styles/large/public/partenaires/logo/logo_partenaire-8.jpg?itok=UdRb1xWE)
