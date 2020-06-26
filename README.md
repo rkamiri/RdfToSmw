@@ -3,7 +3,7 @@
 **RDFToSMW** is a project that aims to deliver a simple but effective tool to import **RDF** and **OWL** files into **Semantic Media Wiki** using PHP.
 
 
-# Install
+# How to Install
 
 To install RDFToSMW you will need a php working environement that uses **Apache** or similar web server, **extract**, **drag and drop** the **RDFToSMW folder** insinde your hosting directory.
 The next and final step is to create a **MediaWiki User** named **Import**.
