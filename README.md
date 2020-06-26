@@ -1,6 +1,6 @@
 # RDFToSMW
 
-**RDFToSMW** is a project that aims to deliver a simple but effective tool to import  and **OWL** files into **Semantic Media Wiki** using PHP.
+**RDFToSMW** is a project that aims to deliver a simple but effective tool to import **RDF** and **OWL** files into **Semantic Media Wiki** using PHP.
 
 
 # Install
