@@ -1,19 +1,8 @@
 <?php
      class Model{
-          function __construct(){
-          }
-          function sendMail(){
-            $mail= $_POST['mail'];
-            $sujet = $_POST['sujet'];
-            $message =  $_POST['message'];
-            $a = "foliowave.enterprise@gmail.com";
-            $entete = "From:" . $mail;
-            ini_set( 'display_errors', 1 );
-            error_reporting( E_ALL );
-            mail($a,$sujet,$message, $entete);
-            return true;
+        function __construct(){
         }
-
+         
         public function upload(){
          
           if(!empty($_FILES['uploaded_file']))
@@ -160,24 +149,37 @@
 
             $preview = substr($pageArray[1].$pageArray[2], 0, 30);  // retourne "abcde"
             $date = gmdate("Y-m-d")."T".gmdate("H:i:s")."Z";
-            $page='<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
-                    
-                    <page>
-                        <title>'.$pageArray[0].'</title>
+            $page='<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>'.$pageArray[0].'</title>
                         <ns>0</ns>
-                        <id>ID de la page</id>
+                        <id>0</id>
                         <revision>
-                          <id>ID de la révision ?.</id>
+                          <id>0</id>
                           <timestamp>'.$date.'</timestamp>'.'
                           <contributor>
-                            <username>'.'importing-Tool'.'</username>
+                            <username>'.'Romain'.'</username>
                             <id>1</id>
                           </contributor>
                           <comment>'.$preview.'</comment>
                           <model>wikitext</model>
-                          <format>text/x-wiki</format>
-                          <text xml:space="preserve" bytes="12">'.$pageArray[1].'</text>
-                          <text xml:space="preserve" bytes="12">'.$pageArray[2].'</text>
+                          <format>text/x-wiki</format>';
+                          $page=$page.'<text xml:space="preserve" bytes="12">';
+
+                          if($pageArray[1]!="" || isset($pageArray[1]))
+                           $page=$page.$pageArray[1];
+                          if($_SESSION['viki']=='true'){
+                           $page=$page.'{{ #viki:pageTitles='.$pageArray[0].'}}';
+                          }
+                          if(($pageArray[2]!="" || isset($pageArray[2])) && $_SESSION['viki']==='true'){
+                            $pieces = explode(' ', $pageArray[2]);
+                            $last_word = array_pop($pieces);
+                            $page=$page.'['.$_SESSION['url'].$last_word.' '.$pageArray[2].']';
+                          }
+                          else{
+                            $page=$page.$pageArray[2];
+                          }
+                          $page=$page.'</text>
                           <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
                         </revision>
                       </page>
@@ -191,6 +193,9 @@
                     return $my_file;
         }
 
+        /*
+         * Add the file contained in a folder to a zip file
+         */
         function zipFile($nomDossier) {
             /*
              * récupère la liste des fichiers d'un dossier puis les mets dans une liste.
@@ -222,13 +227,29 @@
         /*
          * Download a zip file using php headers
          */
-        function dlPage($filePath){
+        function dlZip($filePath){
           header('Content-Type: application/octet-stream');
           header("Content-Transfer-Encoding: Binary"); 
           header("Content-disposition: attachment; filename=\"" . basename($filePath) . "\""); 
           readfile($filePath);
         }
 
-
+        public static function removeFolder($dirPath) {
+          if (! is_dir($dirPath)) {
+            throw new InvalidArgumentException("$dirPath must be a directory");
+          }
+          if (substr($dirPath, strlen($dirPath) - 1, 1) != '/') {
+            $dirPath .= '/';
+          }
+          $files = glob($dirPath . '*', GLOB_MARK);
+          foreach ($files as $file) {
+            if (is_dir($file)) {
+              self::deleteDir($file);
+            } else {
+              unlink($file);
+            }
+          }
+          rmdir($dirPath);
+        }
      }
 ?>

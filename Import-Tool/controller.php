@@ -31,11 +31,8 @@
 		}
 
 		public function dlZip($pathToFolder){
-			return $this->model->dlPage("PageStorage/".$pathToFolder.".zip");
+			$this->model->dlZip("PageStorage/".$pathToFolder.".zip");
 		}
-		/*public function sendMail(){
-		    $this->mod->sendMail();
-		    $this->vue->getBody();
-		}*/
+
 	}
 ?>
