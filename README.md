@@ -4,7 +4,6 @@
 
 
 # Install
-![capture](https://cdn.discordapp.com/attachments/724983855676784710/726062572968869978/Capture_decran_1.png)
 
 To install RDFToSMW you will need a php working environement that uses **Apache** or similar web server, **extract**, **drag and drop** the **RDFToSMW folder** insinde your hosting directory.
 The next and final step is to create a **MediaWiki User** named **Import**.
