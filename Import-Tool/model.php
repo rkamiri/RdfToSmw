@@ -3,6 +3,11 @@
         function __construct(){
         }
          
+       
+        /*
+         * A function to upload a file to the server
+         * Return the file path
+         */
         public function upload(){
          
           if(!empty($_FILES['uploaded_file']))
@@ -21,8 +26,10 @@
         }
 
          /*
-         * Creer un dossier pour mettre tout dedans
-         */
+          * Create a folder
+          * Will not erase existings folders
+          * Return folder path
+          */
         public function createFolder(){
             $name = $_SESSION['token'];
             if(file_exists('PageStorage/'.$name)){
@@ -34,6 +41,10 @@
             return $name;
         }
 
+        /*
+         * the main function of the program, it will check how the file is formated (if it uses URI or classic name for the classes), will call createPage to generate the SMW pages
+         * doesnt return anything
+         */
         function createPages($pathToFolder, $pathToXML){
           $handle = fopen($pathToXML, 'r');
           $data = file_get_contents($pathToXML);
@@ -51,6 +62,7 @@
             $contains="";
             $content="";
             $currentType="";
+            $titleLang="";
             $fileOrga;
             while (!feof($handle)){
               $buffer = fgets($handle);
@@ -64,11 +76,10 @@
 
               if(isset($fileOrga)){
                 if($fileOrga=="rdfWNames"){         
-                  $currentType = $this->checktypeWName($buffer);
+                  $currentType = $this->checktype($buffer);
                   if($currentType=='title'){
                     if(!isset($title))$title=$this->get_string_between($buffer, '#', '"');
                     if($title!=$this->get_string_between($buffer, '#', '"')){
-                      //echo  $title.$content.$contains.$belongsTo."</br>"; 
                       $pageArray = array(0=>$title, 1=>$content, 2=>$belongsTo);              
                       $this->createPage($pathToFolder, $pageArray);
                       $content="";
@@ -87,7 +98,40 @@
                 }
                     
                 if($fileOrga=="rdfWONames"){
-                  echo "habib";
+                  $currentType = $this->checktype($buffer);
+                  if(!$currentType!='continue'){
+                    if($currentType=='eoc'){
+                      $pageArray = array(0=>$title, 1=>$content, 2=>$belongsTo);              
+                      $this->createPage($pathToFolder, $pageArray);
+                      $content="";
+                      $belongsTo="";
+                      $title=""; 
+                      $titleLang="";
+                    }
+                    if($currentType=='title'){
+                      if($titleLang=="en" || $titleLang==""){
+                        if(strpos($buffer, '"fr"')){
+                          $titleLang="fr";
+                        }else{
+                          $titleLang=="en";
+                        }
+                        $title=$this->get_string_between($buffer, ']', '[/');
+                      }
+                    }
+                    if($currentType=='content' && !strpos(str_replace(":", "", $buffer), "rdfresource")){
+                      $content=$content.$this->get_string_between($buffer, ']', '[/')."\n";
+                    }
+
+                    if($currentType=='belongsTo'){
+                      $belongsToTitle=$this->checkIfSubclassIsInFile($pathToXML, $this->get_string_between($buffer, '="', '"/'));
+                      if($belongsToTitle!='fail'){
+                        $belongsTo=$belongsTo." is a subclass from ".$belongsToTitle."\n";
+                      }
+                      else{
+                        $belongsTo=$belongsTo." is a subclass from ".$this->get_string_between($buffer, '="', '"/')."\n";
+                      }
+                    }
+                  }
                 }
               }
              }
@@ -95,7 +139,12 @@
           }    
         }
 
-         function checkFileOrganisation($string){
+        
+        /*
+         * Check if the classes in the files contains a name, or simply a URI, in the case of a URI the process will be differents and will need more steps in order to have a coherent SMW page
+         * Returns rdfWNames in the case the file contains classes with classic names, rdfWONames if URI are used and continue if not a class
+         */
+        function checkFileOrganisation($string){
           //replaces the colon in order to prevent any character conflict with the strpos function
           $string=str_replace(":","",$string);
           if(strpos($string, '[owlClass') || strpos($string, '[rdfsClass') || strpos($string, 'Class rdfabout=')){
@@ -115,15 +164,17 @@
         }
 
 
-        //a function to check the type of the line of the RDF file, usefull to add content to a mediawiki page
-        function checktypeWName($string){
+        /*
+         *a function to check the type of the line of the RDF file, usefull to add content to a mediawiki page
+         * will return the corresponding type on the poss array 
+         */
+        function checktype($string){
           //title = [owlClass, [rdfsClass, Class rdfabout=; 
           $string=str_replace(":","",$string);
-          $got = array(0=>'[owlClass', 1=>'[rdfsClass', 2=>'rdfssubClassOf ', 3=>'rdfscomment');
-          $poss = array('title','title', 'belongsTo', 'content');
+          $got = array(0=>'[owlClass', 1=>'[rdfsClass', 2=>'rdfssubClassOf ', 3=>'rdfscomment', 4=>'rdfslabel', 5=>'oboIAO', 6=>'/Class', 7=>'Class');
+          $poss = array('title','title', 'belongsTo', 'content', 'title', 'content', 'eoc', 'nClass');
           
           foreach($got as $value){
-            //$mystring = "The quick brown fox rdfs:subPropertyOf jumps over the lazy dog";
             $result= strpos($string, $value); 
             if( $result !== false){
               return $poss[array_search($value, $got)];
@@ -131,6 +182,54 @@
           }
         }  
 
+        /*
+         * a function made to found if a class (using a URI as a name) is present in the file
+         * returns the name if found, else will return fail
+         */
+        function checkIfSubclassIsInFile($pathToXML, $name){
+          $name = basename($name);
+          $name =  preg_replace("/[^a-zA-Z0-9]+/", "", $name);
+          $found=false;
+          $title="";
+          $titleLang="";
+          $handle = fopen($pathToXML, 'r');
+          if($handle){
+            while (!feof($handle)){
+              $buffer = fgets($handle);
+              $type=$this->checkType($buffer);
+              $uri="";
+              if($type=='nClass'){
+                $uri=$this->get_string_between($buffer, '="', '"]');
+                $uri=basename($uri);
+                $uri = preg_replace("/[^a-zA-Z0-9]+/", "", $uri);
+                if(strcmp($uri, $name)==0){
+                  $found=true;
+                }
+              }
+              if($type=="title" && $found==true){
+                if($titleLang=="en" || $titleLang==""){
+                  if(strpos($buffer, '"fr"')){
+                    $titleLang="fr";
+                  }else{
+                    $titleLang=="en";
+                  }
+                  $title=$this->get_string_between($buffer, ']', '[/');
+                }
+              }
+
+              if($type=='eoc' && $found==true){
+                return $title;
+              }
+            }
+          }
+          fclose($handle);
+          return "fail";
+        }
+
+        /*
+         * a function to get a part of a string contained between two delimiters
+         * returns a string
+         */
         function get_string_between($string, $start, $end){
           $string = ' ' . $string;
           $ini = strpos($string, $start);
@@ -234,22 +333,5 @@
           readfile($filePath);
         }
 
-        public static function removeFolder($dirPath) {
-          if (! is_dir($dirPath)) {
-            throw new InvalidArgumentException("$dirPath must be a directory");
-          }
-          if (substr($dirPath, strlen($dirPath) - 1, 1) != '/') {
-            $dirPath .= '/';
-          }
-          $files = glob($dirPath . '*', GLOB_MARK);
-          foreach ($files as $file) {
-            if (is_dir($file)) {
-              self::deleteDir($file);
-            } else {
-              unlink($file);
-            }
-          }
-          rmdir($dirPath);
-        }
-     }
+    }
 ?>

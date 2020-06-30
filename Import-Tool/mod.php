@@ -18,6 +18,8 @@
                          $_SESSION['url']=$_SESSION['url'].'index.php/';
                          echo $_SESSION['url'];
                     }
+                    $_SESSION['token']=random_int(1, 1999);
+                                       
                     $pathToXML=$ctrl->upload();
                     $pathToFolder=$ctrl->createFolder();
                     $ctrl->createPages($pathToFolder, $pathToXML);
