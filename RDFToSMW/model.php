@@ -93,7 +93,12 @@
                   }
 
                   if($currentType=='belongsTo'){
-                    $belongsTo=$belongsTo." is a subclass from ".$this->get_string_between($buffer, '#', '"');
+                    if($_SESSION['viki']==="true"){
+                      $belongsTo=$belongsTo." is a subclass from ".$_SESSION['url'].str_replace(' ', '', $this->get_string_between($buffer, '#', '"'));
+                    }
+                    else{
+                      $belongsTo=$belongsTo." is a subclass from ".$this->get_string_between($buffer, '#', '"');
+                    }
                   }
                 }
                     
@@ -125,7 +130,11 @@
                     if($currentType=='belongsTo'){
                       $belongsToTitle=$this->checkIfSubclassIsInFile($pathToXML, $this->get_string_between($buffer, '="', '"/'));
                       if($belongsToTitle!='fail'){
-                        $belongsTo=$belongsTo." is a subclass from ".$belongsToTitle."\n";
+                        if($_SESSION['viki']==="true"){
+                          $belongsTo=$belongsTo." is a subclass from".$_SESSION['url'].str_replace(' ', '', $belongsToTitle);
+                        }
+                        else
+                          $belongsTo=$belongsTo." is a subclass from ".$belongsToTitle."\n";
                       }
                       if($belongsToTitle=="fail"){
                         $tmp = $this->get_string_between($buffer, '="', '"/');
@@ -262,7 +271,7 @@
                           <id>0</id>
                           <timestamp>'.$date.'</timestamp>'.'
                           <contributor>
-                            <username>'.'Import'.'</username>
+                            <username>'.'Romain'.'</username>
                             <id>1</id>
                           </contributor>
                           <comment>'.$preview.'</comment>
@@ -275,11 +284,11 @@
                           if($_SESSION['viki']=='true'){
                            $page=$page.'{{ #viki:pageTitles='.$pageArray[0].'}}';
                           }
-                          if(($pageArray[2]!="" || isset($pageArray[2])) && $_SESSION['viki']==='true'){
-                            $pieces = explode(' ', $pageArray[2]);
-                            $last_word = array_pop($pieces);
-                            $page=$page.'['.$_SESSION['url'].$last_word.' '.$pageArray[2].']';
+                          
+                          if($pageArray[2]!="" || isset($pageArray[2])){
+                            $page=$page.$pageArray[2];
                           }
+
                           else{
                             $page=$page.$pageArray[2];
                           }
@@ -289,7 +298,7 @@
                       </page>
                     </mediawiki>';
 
-                    $my_file = 'PageStorage/'.$pathToFolder.'/'.$pageArray[0].'.xml';
+                    $my_file = 'PageStorage/'.$pathToFolder.'/'.str_replace(" ", "", $pageArray[0]).'.xml';
                     $handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
                     fwrite($handle, $page);
                     fclose($handle);
