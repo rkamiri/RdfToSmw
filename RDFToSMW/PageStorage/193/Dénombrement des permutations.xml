@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Dénombrement des permutations</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:51Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Le dénombrement des permutati</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Le dénombrement des permutations est une transformation de données permettant de compter le nombre de permutations possibles d&apos;éléments dans un ensemble de taille n, chaque élément se produisant exactement une fois. Ce nombre est factoriel n.
+permutation numbering is a data tranformation allowing to count the number of possible permutations of elements in a set of size n, each element occurring exactly once. This number is factorial n.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+STATO
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0200000
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

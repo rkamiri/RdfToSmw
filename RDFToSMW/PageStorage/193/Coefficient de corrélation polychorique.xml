@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Coefficient de corrélation polychorique</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:51Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Le coefficient de corrélation</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Le coefficient de corrélation polychorique est un coefficient de corrélation qui est calculé sur 2 variables pour caractériser une association par proxy avec 2 variables (latentes) supposées continues et normalement distribuées.
+polychoric correlation coefficient is a correlation coefficient which is computed over 2 variables to characterise an association by proxy with 2(latent) variables which are assumed to be continuous and normally distributed.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+
+
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

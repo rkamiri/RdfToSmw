@@ -1,0 +1,31 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Processus planifié</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:05Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>planned process
+Injecting mice</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">planned process
+Injecting mice with a vaccine in order to test its efficacy
+A processual entity that realizes a plan which is the concretization of a plan specification.
+Une entité de type processus qui réalise un plan correspondant à une spécification de plan
+&apos;Plan&apos; includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn&apos;t have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)
+Bjoern Peters
+Jean-Marc Meunier
+branch derived
+6/11/9: Edited at workshop. Used to include: is initiated by an agent
+This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)
+ is a subclass from Processus
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

@@ -1,0 +1,30 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>pie chart</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:28Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Un diagramme circulaire aussi </comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Un diagramme circulaire aussi appelé diagramme en secteurs,( camembert en France) est un type de diagramme utilisé en statistiques. Il permet de représenter un petit nombre de valeurs par des angles proportionnels à ces valeurs.
+a pie chart is a graph in which a circular graph is divided into sector illustrating numerical proportion, meaning that the arc length of each sector (and consequently its central angle and area), is proportional to the quantity it represents.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+Diagramme en camembert
+adapted from Wikipe
+
+https://fr.wikipedia.org/wiki/Diagramme_circulaire
+ is a subclass from Graphe
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

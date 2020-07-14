@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Intensité moyenne du signal logarithmique.</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:28Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>L&apos;intensité moyenne du s</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">L&apos;intensité moyenne du signal logarithmique est une donnée temporelle qui correspond à la somme de deux intensités de signal distinct transformées en logarithme de base 2, chacun correspondant à un état distinct d&apos;acquisition du signal, divisé par 2.
+average log signal intensity is a data time which corresponds to the sum of 2 distinct logarithm base 2 transformed signal intensity, each corresponding to a distinct condition of signal acquisition, divided by 2.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+
+
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

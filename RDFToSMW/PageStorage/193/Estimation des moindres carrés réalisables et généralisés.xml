@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Estimation des moindres carrés réalisables et généralisés</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:54Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>L&apos;estimation des moindres</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">L&apos;estimation des moindres carrés généralisés etréalisables est une estimation de paramètre de modèle qui est une implémentation pratique des moindres carrés généralisés, où la covariance des erreurs est estimée à partir des résidus du modèle de régression.
+the feasible generalized least squares estimation is a model parameter estimation which is a practical implementation of Generalised Least Squares, where the covariance of the errors is estimated from the residuals of the regression model, providing the information needed to whiten the data and model. Each successive estimate of the whitening matrix improves the estimation of the regression parameters, which in turn are used to compute residuals and update the whitening matrix.
+Alejandra Gonzalez-Beltran
+Camille Maumet
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+Tom Nichols
+Tom Nichols
+ is a subclass from Estimation par les moindres carrés généralisés
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

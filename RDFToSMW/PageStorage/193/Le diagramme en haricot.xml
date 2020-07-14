@@ -1,0 +1,30 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Le diagramme en haricot</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:48Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>http://www.r-bloggers.com/boxp</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">http://www.r-bloggers.com/boxplots-beyond-iv-beanplots/
+beanplot is a plot in which (one or) multiple batches (&quot;beans&quot;) are shown. Each bean consists of a dens
+
+le graphique en haricot est un graphique dans lequel (un ou) plusieurs groupes (les haricots) sont représentés. Chaque haricot se compose d&apos;une trace de densité, laquelle est en miroir pour former un polygone. Un diagramme de dispersion unidimensionnel affichant toutes les mesures individuelles est superposé à cela. Le nom provient de la forme de la densité qui ressemble à un haricot vert, tandis que le diagramme de dispersion ressemble aux graines à l&apos;intérieur du graphique.
+Traduction à revoir
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+http://www.jstatsoft.org/v28/c01/paper
+ is a subclass from Graphe
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

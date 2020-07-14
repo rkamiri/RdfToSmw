@@ -1,0 +1,25 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Analyse de mesures répétées</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:33Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>repeated measure analysis is a</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">repeated measure analysis is a kind of data transformation which deals with signals measured in the same experimental units at different times and, possibly, under different conditions over a period of time. Data produced by longitudinal studies qualify for such analysis. Since measurements are made on the same experimental units a number of times, they are likely to be correlated. Repeated measure analysis usually takes into consideration the possibility of correlation with time. It does so by specifying covariance structure in the analysis
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+adapted from https://ciser.cornell.edu/sasdoc/saspdf/analyst/chap16.pdf
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

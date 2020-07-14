@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Test statistique intra sujet</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:13Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Dans le cadre du test statisti</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Dans le cadre du test statistique de comparaison de sujet, il s&apos;agit d&apos;une sorte de test statistique qui évalue si un changement se produit au sein d&apos;une unité expérimentale dans le temps après un traitement ou un événement.
+within subject comparison statistical test is a kind of statistical test which evaluates if a change occurs within one experimental unit over time following a treatment or an event
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+STATO
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0000673
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

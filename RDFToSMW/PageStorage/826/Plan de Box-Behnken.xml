@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Plan de Box-Behnken</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:15Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Dans le cas de plans 2(k-p), P</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Dans le cas de plans 2(k-p), Plackett et Burman (1946) ont développé des plans hautement fractionnés permettant d&apos;obtenir le nombre maximum d&apos;effets (principaux) avec le minimum d&apos;essais. L&apos;équivalent pour un plan 3(k-p) est un plan dit de Box-Behnken (Box et Behnken, 1960 ; voir aussi Box et Draper, 1984). Ces plans ne possèdent pas de générateurs de plan simple (ils sont construits en combinant des plans factoriels à deux niveaux avec des plans incomplets de blocs), et possèdent des interactions confondues complexes. Ces plans ont toutefois l&apos;avantage d&apos;être économiques et donc particulièrement utiles lorsque les essais expérimentaux à réaliser sont coûteux.
+The Box-Behnken design is an independent quadratic design in that it does not contain an embedded factorial or fractional factorial design. In this design the treatment combinations are at the midpoints of edges of the process space and at the center. These designs are rotatable (or near rotatable) and require 3 levels of each factor. The designs have limited capability for orthogonal blocking compared to the central composite designs.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+http://www.itl.nist.gov/div898/handbook/pri/section3/pri3362.htm
+http://www.statsoft.fr/concepts-statistiques/plans-experiences/plans-factoriels-a-3-niveaux-plans-de-box-behnken-et-plans-mixtes-a-2-et-3-niveaux.php#.WV5LtISLSUk
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0500000
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

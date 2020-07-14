@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Hypothèse d&apos;équillibre de Hardy-Weinberg</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:09Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>http://www.ncbi.nlm.nih.gov/pm</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2581961/
+Hardy-Weinberg equilibrium hypothesis is a good of fit hypothesis which states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences (non-random mating, mutation, selection, genetic drift, gene flow and meiotic drive).
+L&apos;hypothèse d&apos;équilibre de Hardy-Weinberg est une hypothèse de bon ajustement qui postule que les fréquences d&apos;allèle et de génotype dans une population resteront constantes de génération en génération en l&apos;absence d&apos;autres influences évolutives (accouplement non-aléatoire, mutation, sélection, dérive génétique, flux génétique et méiotique).
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+STATO, adapted from wikipedia (http://en.wikipedia.org/wiki/Hardy–We
+
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000058
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

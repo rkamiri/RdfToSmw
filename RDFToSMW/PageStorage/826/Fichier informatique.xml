@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Fichier informatique</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:08Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>digital images may be stored a</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">digital images may be stored as electronic file in TIFF format on mass memory storage devices
+Un fichier informatique est une entité support d&apos;information conforme à une spécification ou un format et qui est destinée à contenir des données et des informations sous forme numérique, accessibles aux agents logiciels.
+an electronic file is an information content entity which conforms to a specification or format and which is meant to hold data and information in digital form, accessible to software agents
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+STATO
+ is a subclass from http://purl.obolibrary.org/obo/IAO_0000030
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

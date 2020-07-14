@@ -1,0 +1,25 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>ΔRn</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:30Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>(Rn +) − (Rn −), where Rn </comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">(Rn +) − (Rn −), where Rn + = (emission intensity of reporter dye)/(emission intensity of passive reference dye) in PCR with template and Rn − = (emission intensity of reporter dye)/(emission intensity of passive reference dye) in PCR without template or early cycles of a real-time reaction. Ct = threshold cycle, i.e., cycle at which a statistically significant increase in ΔRn is first detected
+Alejandra Gonzalez-Beltran
+Orlaith Burke
+Philippe Rocca-Serra
+http://jcm.asm.org/content/38/7/2516.figures-only
+ is a subclass from http://purl.obolibrary.org/obo/IAO_0000027
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

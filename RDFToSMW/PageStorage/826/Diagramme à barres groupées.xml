@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Diagramme à barres groupées</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:14Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Le diagramme à barres groupé</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Le diagramme à barres groupé est une sorte de diagramme à barres qui juxtapose les valeurs discrètes pour chacune de la valeur possible d&apos;une variable catégorique donnée, fournissant ainsi une comparaison de groupe. Les tableaux de barres groupés sont intéressants pour la comparaison entre les catégories et la comparaison des éléments dans les catégories. Cependant, le regroupement peut rendre plus difficile à voir la différence entre chaque groupe.
+grouped bar chart is a kind of bar chart which juxtaposes thediscrete values for each of the possible value of a given categorical variable, thus providingwithin group comparison. Grouped bar charts are good for comparing between each element in the categories, and comparing elements across categories. However, the grouping can make it harder to tell the difference between the total of each group.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+
+
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000166
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

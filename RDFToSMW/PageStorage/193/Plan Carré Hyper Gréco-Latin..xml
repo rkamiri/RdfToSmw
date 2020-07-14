@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Plan Carré Hyper Gréco-Latin.</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:45Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>hyper graeco latin square desi</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">hyper graeco latin square design
+Le plan carré hyper gréco-latinest une plan en blocs qui déclare 4 variables de parasite ( variables nuisibles) en plus de la variable de traitement.
+hyper graeco-latin square design is ablock design which declares 4 blocking variables (aka nuisance variables) in addition to the treatment variable
+Jean-Marc Meunier
+Philippe Rocca-Serra
+Adapted from: http://www.itl.nist.gov/div898/handbook/pri/section3/pri3321.htm and
+no example found in pubmed-&gt;not in use in the community
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0500000
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0500007
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

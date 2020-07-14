@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Figure</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:42Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>figure
+Any picture, diagram or</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">figure
+Any picture, diagram or table
+An information content entity consisting of a two dimensional arrangement of information content entities such that the arrangement itself is about something.
+Une entité support d&apos;information consistant en un arrangement bidimensionnel d&apos;entités de contenu d&apos;information de sorte que l&apos;arrangement représente quelque chose.
+Jean-Marc Meunier
+PERSON: Lawrence Hunter
+ is a subclass from http://purl.obolibrary.org/obo/IAO_0000030
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

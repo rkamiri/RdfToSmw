@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Spécification d&apos;état de curation</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:20Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>curation status specification
+</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">curation status specification
+L&apos;état de curation du terme. Les valeurs autorisées proviennent d&apos;une liste énumérée de termes prédéfinis. Voir les spécifications de ces instances pour des définitions plus détaillées de chaque valeur.
+The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.
+Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)
+Jean-Marc Meunier
+PERSON:Bill Bug
+GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;
+OBI_0000266
+ is a subclass from Données sur une partie d&apos;ontologie
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

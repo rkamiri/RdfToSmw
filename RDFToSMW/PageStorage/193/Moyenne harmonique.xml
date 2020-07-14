@@ -1,0 +1,32 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Moyenne harmonique</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:55Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>C&apos;est l&apos;inverse de l</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">C&apos;est l&apos;inverse de la moyenne arithmétique de l&apos;inverse des termes. La moyenne harmonique est donc utilisée lorsqu&apos;on veut déterminer un rapport moyen, dans un domaine où il existe des liens de proportionnalité inverses.
+The harmonic mean is a kind of mean which is calculated by dividing the total number of observations by the recipro
+
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+
+
+https://en.wikipedia.org/wiki/Harmonic_mean
+https://en.wikipedia.org/wiki/Mean#Harmonic_mean_.28HM.29
+https://fr.wikipedia.org/wiki/Moyenne_harmonique
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000029
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

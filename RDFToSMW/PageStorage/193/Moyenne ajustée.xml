@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Moyenne ajustée</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:48Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>La moyenne ajustée ou tronqu�</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">La moyenne ajustée ou tronquée est une mesure de la tendance centrale qui implique le calcul de la moyenne après le rejet d&apos;une partie des données d&apos;une distribution de probabilité ou d&apos;un échantillon correspondant à l&apos;extrémité haute et basse et en rejetant généralement une quantité égale aux deux extrémités.
+trimmed mean or truncated mean is a measure of central tendency which involves the calculation of the mean after discarding given parts of a probability distribution or sample at the high and low end, and typically discarding an equal amount of both
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+Moyenne tronquée
+adapted from wikip
+
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000029
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

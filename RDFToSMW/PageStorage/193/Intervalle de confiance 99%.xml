@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Intervalle de confiance 99%</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:48Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>http://www.ncbi.nlm.nih.gov/pm</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689604/
+Un intervalle de confiance qui couvre 99% de la distribution d&apos;échantillonnage, ce qui signifie qu&apos;il existe un risque de faux positif de 1% (erreur de type I).
+a confidence interval which covers 99% of the sampling distribution, meaning that there is a 1% risk of false positive (type I error)
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+confidence interval at 1% of type I error rate
+STATO
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000196
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

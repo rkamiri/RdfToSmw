@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Distribution Lamba de Wilks</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:24Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Le lambda de Wilks est une sta</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Le lambda de Wilks est une statistique qui compare simultanément plusieurs moyennes en mesurant la part d’inertie intraclasse dans l’inertie totale. Plus précisément, c’est le déterminant de la matrice des variances-covariances intraclasse rapporté au déterminant de la matrice des variances-covariances totale. Il est donc compris entre 0 (bonne discrimination) et 1.
+Wilks&apos; lambda distribution (named for Samuel S. Wilks), is a probability distribution used in multivariate hypothesis testing, especially with regard to the likelihood-ratio test and Multivariate analysis of variance. It is a multivariate generalization of the univariate F-distribution, and generalizes the F-distribution in the same way that the Hotelling&apos;s T-squared distribution generalizes Student&apos;s t-distribution.
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+http://www.jybaudot.fr/Inferentielle/lambdawilks.html
+
+
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000225
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>screening library</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:44Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>screening library
+PMID: 156155</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">screening library
+PMID: 15615535.J Med Chem. 2004 Dec 30;47(27):6864-74.A screening library for peptide activated G-protein coupled receptors. 1. The test set. [cdna_library, phage display library]
+a screening library is a collection of materials engineered to identify qualities of a subset of its members during a screening process?
+PERSON: Bjoern Peters
+GROUP: IEDB
+7/13/09: Need to clarify if this meets reagent role definition
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0000047
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

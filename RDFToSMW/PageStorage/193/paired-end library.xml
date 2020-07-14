@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>paired-end library</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:43Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>paired-end library
+PMID: 19339</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">paired-end library
+PMID: 19339662. Next-generation DNA sequencing of paired-end tags (PET) for transcriptome and genome analyses. Genome Res. 2009 Apr;19(4):521-32. Fullwood MJ, Wei CL, Liu ET, Ruan Y.
+is a collection of short paired tags from the two ends of DNA fragments are extracted and covalently linked as ditag constructs
+Philippe Rocca-Serra
+mate-paired library
+paired-end tag (PET) library
+adapted from information provided by Solid web site
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0000047
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

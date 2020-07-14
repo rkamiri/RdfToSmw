@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Ensemble de caractéristiques des données.</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:21Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>data set of features
+A data se</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">data set of features
+A data set that is produced as the output of a descriptive statistical calculation data transformation and consists of producing a data set that represents one or more features of interest about the input data set.
+Un ensemble de données qui est produit comme sortie d&apos;une transformation descriptive de données de calcul statistique et consiste à produire un ensemble de données qui représente une ou plusieurs caractéristiques intéressantes concernant l&apos;ensemble de données d&apos;entrée.
+Jean-Marc Meunier
+PERSON: James Malone
+PERSON: Monnie McGee
+ is a subclass from http://purl.obolibrary.org/obo/IAO_0000100
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

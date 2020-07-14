@@ -1,0 +1,33 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Distribution binomiale négative</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:14Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>En probabilité et en statisti</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">En probabilité et en statistiques, la loi binomiale négative est une distribution de probabilité discrète. Elle décrit la situation suivante : une expérience consiste en une série de tirages indépendants, donnant un &quot;succès&quot; avec probabilité p (constante durant toute l&apos;expérience) et un &quot;échec&quot; avec une probabilité complémentaire. Cette expérience se poursuit jusqu&apos;à l&apos;obtention d&apos;un nombre donné n de succès. La variable aléatoire représentant le nombre d&apos;échecs (avant l&apos;obtention du nombre donné n de succès) suit alors une loi binomiale négative. Ses paramètres sont n, le nombre de succès attendus, et p, la probabilité d&apos;un succès. Cette loi est aussi connue sous le nom de loi de Pólya, en l&apos;honneur de George Pólya.
+negative binomial probability distribution is a discrete probability distribution of the number of successes in a sequence of Bernoulli trials before a specified (non-random) number
+
+Pourquoi n&apos;est-ce pas une sous-classe de la distribution binomiale ?
+Alejandra Gonzalez-Beltran
+Jean-Marc Meunier
+Orlaith Burke
+Philippe Rocca-Serra
+Loi de Pólya
+Pascal distribution
+Pólya distribution
+http://mathworld.wolfram.com/NegativeBinomialDistribution.html
+https://fr.wikipedia.org/wiki/Loi_binomiale_n%C3%A9gative
+ is a subclass from Loi de probabilités discrètes
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

@@ -1,0 +1,27 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Plan à mesure répétée</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:45Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>repeated measure design
+PMID: </comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">repeated measure design
+PMID: 10959922.J Biopharm Stat. 2000 Aug;10(3):433-45.Equivalence in test assay method comparisons for the repeated-measure, matched-pair design in medical device studies: statistical considerations.
+Une conception d&apos;étude qui utilise les mêmes personnes et les expose à un ensemble de conditions. L&apos;effet de l&apos;ordre et de la pratique peut être un facteur de confusion dans ces conceptions
+a study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs
+Jean-Marc Meunier
+PlanAndPlannedProcess Branch
+http://www.holah.karoo.net/experimentaldesigns.htm
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

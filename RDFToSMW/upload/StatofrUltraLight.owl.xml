@@ -1,0 +1,493 @@
+[!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Classes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+ --]
+
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000001 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"]
+[rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000002 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/]
+[obo:IAO_0000111 xml:lang="en"]continuant[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]a heart[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a person[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a symphony orchestra[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the color of a tomato[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the disposition of blood to coagulate[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the lawn and atmosphere in front of our building[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the mass of a cloud[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]An entitythat exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Une entité qui existe comme un tout, persiste à travers le temps tout en conservant son identité et n&apos;a pas de parties temporelles.[/obo:IAO_0000115]
+[obo:IAO_0000118 xml:lang="en"]endurant[/obo:IAO_0000118]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="en"]continuant[/rdfs:label]
+[rdfs:label xml:lang="fr"]continuant[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000003 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/]
+[obo:IAO_0000111 xml:lang="en"]occurrent[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]a surgical operation as processual context for a nosocomical infection[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the life of an organism[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the most interesting part of Van Gogh&apos;s life[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the spatiotemporal context occupied by a process of cellular meiosis[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the spatiotemporal region occupied by the development of a cancer tumor[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]An entitythat has temporal parts and that happens, unfolds or develops through time. Sometimes also called perdurants.[/obo:IAO_0000115]
+[obo:IAO_0000118 xml:lang="en"]perdurant[/obo:IAO_0000118]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="en"]occurrent[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000004 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/]
+[obo:IAO_0000111 xml:lang="en"]independent continuant[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]a chair[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a heart[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a leg[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a person[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]a symphony orchestra[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]an organism[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the bottom right portion of a human torso[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the lawn and atmosphere in front of our building[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A continuantthat is a bearer of qualityand realizable entityentities, in which other entities inhere and which itself cannot inhere in anything.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Un continuant qui est porteur de qualité et d&apos;entités réalisables, dans lesquelles d&apos;autres entités sont inhérentes et qui ne peuvent elles-mêmes être inhérentes à rien.[/obo:IAO_0000115]
+[obo:IAO_0000116 xml:lang="fr"]J&apos;ai un doute surma traduction[/obo:IAO_0000116]
+[obo:IAO_0000117 xml:lang="fr"]Jean-Marc Meunier[/obo:IAO_0000117]
+[obo:IAO_0000118 xml:lang="en"]substantial entity[/obo:IAO_0000118]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Continuant indépendant[/rdfs:label]
+[rdfs:label xml:lang="en"]independent continuant[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000005 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000005"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/]
+[obo:IAO_0000111 xml:lang="en"]dependent continuant[/obo:IAO_0000111]
+[obo:IAO_0000115 xml:lang="en"]A continuantthat is either dependent on one or other independent continuantbearers or inheres in or is borne by other entities.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Un continuant qui dépend soit d&apos;unporteur indépendant, soit est inhérent à ou est supporté par d&apos;autres entités.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Continuant dépendant[/rdfs:label]
+[rdfs:label xml:lang="en"]dependent continuant[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000006 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000006"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000007 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000007"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/]
+[obo:IAO_0000111 xml:lang="en"]process[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]the life of an organism[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the process of cell-division[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the process of sleeping[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A processual entitythat is a maximally connected spatiotemporal whole and has bona fide beginnings and endings corresponding to real discontinuities.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Enchainement ordonné de faits ou de phénomènes répondant à un certain schéma et aboutissant à quelque chose.[/obo:IAO_0000115]
+[obo:IAO_0000117 xml:lang="fr"]Jean-Marc Meunier[/obo:IAO_0000117]
+[obo:IAO_0000119 xml:lang="fr"]http://www.larousse.fr/dictionnaires/francais/processus/64066[/obo:IAO_0000119]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Processus[/rdfs:label]
+[rdfs:label xml:lang="en"]process[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000009 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000009"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000016 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000017 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000018 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000018"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000019 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/]
+[obo:IAO_0000111 xml:lang="en"]quality[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]the ambient temperature of air[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the circumference of a waist[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the color of a tomato[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the mass of a piece of gold[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the shape of a nose[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the weight of a chimpanzee[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A specifically dependent continuantthat is exhibited if it inheres in an entity or entities at all (a categorical property).[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Un continuant spécifiquement dépendant qui est exposé s&apos;il est inhérent à une entité ou à des entités du tout (une propriété catégorique).[/obo:IAO_0000115]
+[obo:IAO_0000117 xml:lang="fr"]Jean-Marc Meunier[/obo:IAO_0000117]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Qualité[/rdfs:label]
+[rdfs:label xml:lang="en"]quality[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000020 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000005"/]
+[obo:IAO_0000111 xml:lang="en"]specifically dependent continuant[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]the color of a tomato[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the disposition of fish to decay[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the function of the heart in the body: to pump blood, to receive de-oxygenated and oxygenated blood, etc.[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the liquidity of blood[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the mass of a cloud[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of being a doctor[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the smell of mozzarella[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A continuantthat inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Un continuant qui est inhérent ou est à la charge d&apos;autres entités. Chaque instance de A nécessite une instance particulière de B qui doit toujours être identique.[/obo:IAO_0000115]
+[obo:IAO_0000117 xml:lang="fr"]Jean-Marc Meunier[/obo:IAO_0000117]
+[obo:IAO_0000118 xml:lang="en"]mode[/obo:IAO_0000118]
+[obo:IAO_0000118 xml:lang="en"]property[/obo:IAO_0000118]
+[obo:IAO_0000118 xml:lang="en"]trope[/obo:IAO_0000118]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Continuant spécifiquement dépendant[/rdfs:label]
+[rdfs:label xml:lang="en"]specifically dependent continuant[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000023 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/]
+[obo:IAO_0000111 xml:lang="en"]role[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]the role of a biological grandfather as legal guardian in the context of a system of laws[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of a chemical compound in an experiment[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of a patient relative as defined by a hospital administrative form[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of a person as a surgeon[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of a student in a university[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of a woman as a legal mother in the context of system of laws[/obo:IAO_0000112]
+[obo:IAO_0000112 xml:lang="en"]the role of ingested matter in digestion[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A realizable entitythe manifestation of which brings about some result or end that is not essential to a continuantin virtue of the kind of thing that it is but that can be served or participated in by that kind of continuantin some kinds of natural, social or institutional contexts.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="en"]role[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000026 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000026"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000028 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000028"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000031 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000005"/]
+[obo:IAO_0000111 xml:lang="en"]generically dependent continuant[/obo:IAO_0000111]
+[obo:IAO_0000112 xml:lang="en"]a certain PDF file that exists in different and in several hard drives[/obo:IAO_0000112]
+[obo:IAO_0000115 xml:lang="en"]A continuantthat is dependent on one or other independent continuantbearers. For every instance of A requires some instance of (an independent continuanttype) B but which instance of B serves can change from time to time.[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="fr"]Un continuant qui dépend d&apos;un support continu indépendant. Chaque instance de A nécessite une instance deB de un type continuant indépendantmais cette instance de Bpeut changer de temps à autre.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Continuant dépendant générique[/rdfs:label]
+[rdfs:label xml:lang="en"]generically dependent continuant[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000034 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/BFO_0000040 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CARO_0001008 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001008"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_16670 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]peptide[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]peptide[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_16991 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]deoxyribonucleic acid[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]deoxyribonucleic acid[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_23367 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]molecular entity[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.[/obo:IAO_0000115]
+[obo:IAO_0000116 xml:lang="en"]We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well[/obo:IAO_0000116]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]molecular entity[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_33250 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33250"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]atom[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]A chemical entity constituting the smallest component of an element having the chemical properties of the element.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]atom[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_33696 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33696"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_33697 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]ribonucleic acid[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]ribonucleic acid[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CHEBI_33839 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]macromolecule[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.[/obo:IAO_0000115]
+[obo:IAO_0000118 xml:lang="en"]polymer[/obo:IAO_0000118]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]macromolecule[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CL_0000000 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CL_0000010 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000578"/]
+[rdfs:subClassOf]
+[Class]
+[unionOf rdf:parseType="Collection"]
+[Restriction]
+[onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/]
+[someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600036"/]
+[/Restriction]
+[Restriction]
+[onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/]
+[someValuesFrom]
+[Restriction]
+[onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/]
+[someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600036"/]
+[/Restriction]
+[/someValuesFrom]
+[/Restriction]
+[/unionOf]
+[/Class]
+[/rdfs:subClassOf]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/CL_0000578 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/CL_0000578"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/]
+[rdfs:subClassOf]
+[Restriction]
+[onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/]
+[someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/]
+[/Restriction]
+[/rdfs:subClassOf]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/GO_0003674 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]molecular_function[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]molecular_function[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/GO_0003824 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]catalytic activity[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]catalytic activity[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/GO_0008150 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000007"/]
+[obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]biological_process[/obo:IAO_0000111]
+[obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.[/obo:IAO_0000115]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"]biological_process[/rdfs:label]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/GO_0010467 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/GO_0043234 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/GO_0043234"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/]
+[rdfs:subClassOf]
+[Restriction]
+[onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/]
+[someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/]
+[/Restriction]
+[/rdfs:subClassOf]
+[/Class]
+
+
+
+[!-- http://purl.obolibrary.org/obo/IAO_0000001 --]
+
+[Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001"]
+[rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/]
+[obo:IAO_0000111 xml:lang="en"]conditional specification[/obo:IAO_0000111]
+[obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/]
+[obo:IAO_0000115 xml:lang="fr"]Une directive qui spécifie ce qui devrait arriver si la condition de déclenchement est remplie[/obo:IAO_0000115]
+[obo:IAO_0000115 xml:lang="en"]a directive information entity that specifies what should happen if the trigger condition is fulfilled[/obo:IAO_0000115]
+[obo:IAO_0000117 xml:lang="fr"]Jean-Marc Meunier[/obo:IAO_0000117]
+[obo:IAO_0000117 xml:lang="en"]PlanAndPlannedProcess Branch[/obo:IAO_0000117]
+[obo:IAO_0000119 xml:lang="en"]OBI branch derived[/obo:IAO_0000119]
+[obo:IAO_0000119 xml:lang="en"]OBI_0000349[/obo:IAO_0000119]
+[obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/]
+[rdfs:label xml:lang="fr"]Spécification conditionnelle[/rdfs:label]
+[rdfs:label xml:lang="en"]conditional specification[/rdfs:label]
+[/Class]
+

@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Mesure de la fréquence</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:07Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>rate measurement datum
+The rat</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">rate measurement datum
+The rate of disassociation of a peptide from a complex with an MHC molecule measured by the ratio of bound and unbound peptide per unit of time.
+A scalar measurement datum that represents the number of events occuring over a time interval
+Une donnée scalaire qui représente le nombre d&apos;événements survenant sur un intervalle de temps.
+Jean-Marc Meunier
+PERSON: Bjoern Peters, Randi Vita
+IEDB
+ is a subclass from http://purl.obolibrary.org/obo/IAO_0000032
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

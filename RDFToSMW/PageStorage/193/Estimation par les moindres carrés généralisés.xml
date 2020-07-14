@@ -1,0 +1,26 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Estimation par les moindres carrés généralisés</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T19:59:54Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>L&apos;estimation par les moin</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">L&apos;estimation par les moindres carrés généralisés est une estimation de paramètre modèle pour un modèle de régression linéaire avec des erreurs qui dépendent et (éventuellement) ont une variance hétérogène. Une utilisation difficile à utiliser dans la pratique, car la matrice de covariance des erreurs doit connaitreles données et le modèle.
+the generalized least squares estimation is a model parameter estimation for a linear regression model with errors that are dependent and (possibly) have heterogeneous variance. Difficult to use use in practice, as covariance matrix of the errors must known to &quot;whiten&quot; data and model. If true covariance is known, it is the Best Linear Unbiased Estimation (BLUE) method under these assumptions, Uniformly Minimum-Variance Unbiased Estimator (UMVUE) with addition of a Gaussian assumption.
+Jean-Marc Meunier
+Philippe Rocca-Serra
+Tom Nichols
+http://en.wikipedia.org/wiki/Generalized_least_squares and Tom Nichols
+ is a subclass from http://purl.obolibrary.org/obo/STATO_0000119
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

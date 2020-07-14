@@ -1,0 +1,29 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>graeco latin square design</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:08Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>graeco latin square design
+PMI</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">graeco latin square design
+PMID: 6846242-Beaton et al (Am J Clin Nutr 1979;32:2546-59) reported on the partitioning of variance in 1-day dietary data for the intake of energy, protein, total carbohydrate, total fat, classes of fatty acids, cholesterol, and alcohol. Using the same food intake data and the expanded National Heart, Lung and Blood Institute food composition data base, these analyses of sources of variance have been expanded to include classes of carbohydrate, vitamin A, vitamin C, thiamin, riboflavin, niacin, calcium, iron, total ash, caffeine, and crude fiber. The analyses relate to observed intakes (replicated six times) of 30 adult males and 30 adult females obtained under a paired Graeco-Latin square design with sequence of interview, interviewer, and day of the week as determinants. Neither sequence nor interviewer made consistent contribution to variance. In females, day of the week had a significant effect for several nutrients. The major partitioning of variance was between interindividual variation (between subjects) and intraindividual variation (within subjects) which included both true day-to-day variation in intake and methodological variation. For all except caffeine, the intraindividual variability of 1-day data was larger than the interindividual variability. For vitamin A, almost all of the variance was associated with day-to-day variability. One day data provide a very inadequate estimate of usual intake of individuals. In the design of nutrition studies it is critical that the intended use of dietary data be a major consideration in deciding on methodology. There is no ideal dietary method. There may be preferred methods for particular purposes.
+graeco-latin square design is ablock design which declares 3 blocking variables (aka nuisance variables) in addition to the treatment variable
+Existence dedeux classes pour le carré gréco latin. Je les ais fusionnées malgré le contenu différent.
+Philippe Rocca-Serra
+Adapted from: http://www.itl.nist.gov/div898/handbook/pri/section3/pri3321.htm and
+only 2 articles in pubmed -&gt;probably irrelevant
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0500007
+ is a subclass from Plan carrégréco-latin
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>

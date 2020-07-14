@@ -1,0 +1,28 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+                   <page>
+                      <title>Plan Plackett-Burman</title>
+                        <ns>0</ns>
+                        <id>0</id>
+                        <revision>
+                          <id>0</id>
+                          <timestamp>2020-07-08T20:09:15Z</timestamp>
+                          <contributor>
+                            <username>Romain</username>
+                            <id>1</id>
+                          </contributor>
+                          <comment>Le plan Plackett-Burman est un</comment>
+                          <model>wikitext</model>
+                          <format>text/x-wiki</format><text xml:space="preserve" bytes="12">Le plan Plackett-Burman est un type de plan d&apos;étude qui optimise les expériences multifactorielles caractérisées par leur parcimonie et leur économie avec un nombre d&apos;essaismultiple de 4 (plut�
+
+Plackett-Burman design is a type of study design optimizing multifactorial experiments characterized by their parsimonyand economywith the run number a multiple of
+
+Alejandra Gonzalez-Beltran
+Orlaith Burke
+Philippe Rocca-Serra
+http://www.itl.nist.gov/div898/handbook/pri/section3/pri335.htm
+ is a subclass from http://purl.obolibrary.org/obo/OBI_0500000
+</text>
+                          <sha1>753hugogitqwnlby9d3k5rdzsa58oj1</sha1>
+                        </revision>
+                      </page>
+                    </mediawiki>
