@@ -1,26 +1,25 @@
 # RDFToSMW
 
-**RDFToSMW** is a project that aims to deliver a simple but effective tool to import **RDF** and **OWL** files into **Semantic Media Wiki** using PHP.
+**RDFToSMW** is a project that aims to provide a simple yet effective tool for importing **RDF** and **OWL** files into **Semantic Media Wiki** using PHP.
 
+## How to Install
 
-# How to Install
-
-To install RDFToSMW you will need a php working environement that uses **Apache** or similar web server, **extract**, **drag and drop** the **RDFToSMW folder** insinde your hosting directory.
-The next and final step is to create a **MediaWiki User** named **Import**.
+To install RDFToSMW, you will need a PHP working environment that uses **Apache** or a similar web server. **Extract** the contents and **drag and drop** the **RDFToSMW folder** into your hosting directory. The next and final step is to create a **MediaWiki User** named **Import**.
 
 You are now ready to use **RDFToSMW**.
 
-# Usage
-To use the app you will need to first **upload** an **RDF** or **OWL** file using the **upload button**, then you will have the choice to use the **VIKI extension**, this will provide a interaction **graph** to each pages that will be created.
+## Usage
 
-If you choose to use **VIKI extension** you will then need to put the link to your **SemanticMediaWiki**, that can either be to you home page, or any other pages of your wiki.
+To use the app, you will first need to **upload** an **RDF** or **OWL** file using the **upload button**. Then, you will have the option to use the **VIKI extension**, which provides an interactive **graph** for each page that will be created.
 
-Once the previous steps are completed, click the **upload button**, if everything goes good you will be promped by a download pop-up containing a zip file, inside it will be all the **SemanticMediaWiki pages** in **XML** format.
+If you choose to use the **VIKI extension**, you will then need to provide the link to your **Semantic Media Wiki**, which can either be your home page or any other page on your wiki.
 
-To load a page inside **SemanticMediaWiki**, go to your homepage, then click on **Special Pages** and **Import Pages** (inside the tool Category), upload your page, and give your wiki name for the **Prefix field**, then click the **import file button**.
+Once the previous steps are completed, click the **upload button**. If everything goes well, you will be prompted with a download pop-up containing a zip file. Inside the zip file, you will find all the **Semantic Media Wiki pages** in **XML** format.
 
-# Credits
+To load a page into **Semantic Media Wiki**, go to your homepage, then click on **Special Pages** and **Import Pages** (under the Tool Category). Upload your page and enter your wiki name in the **Prefix field**, then click the **import file button**.
 
-Paris-8 University Research Lab - Romain Kamiri.
+## Credits
 
-![universitée paris8](https://www.lesdechargeurs.fr/sites/default/files/styles/large/public/partenaires/logo/logo_partenaire-8.jpg?itok=UdRb1xWE)
+Paris 8 University Research Lab - Romain Kamiri.
+
+![University of Paris 8](https://www.lesdechargeurs.fr/sites/default/files/styles/large/public/partenaires/logo/logo_partenaire-8.jpg?itok=UdRb1xWE)
